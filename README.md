@@ -26,6 +26,7 @@ Remote control του Raspberry Pi
 
 
 ΥΛΙΚΑ ΠΟΥ ΧΡΗΣΙΜΟΠΟΙΗΣΑΜΕ
+
 Raspberry PI 2 , Model B (μας το παρείχε το ΙΕΚ δωρεάν)
 Resistors 330ohm (Κόστος: 0,5 ευρώ)
 3 LEDS (Κόστος: 0,30ευρώ)
