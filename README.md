@@ -38,4 +38,5 @@ Resistors 330ohm (Κόστος: 0,5 ευρώ)
 1 push-button (Κόστος: 0,50 ευρώ)
 Μίνι φορητό ηχείο (Κόστος: 12,24 €) 
 Kingston Canvas Select microSDHC 16GB U1 with Adapter (Κόστος: 3,50€)
+Usb webcam Logitech (Κόστος: Περίπου 25 ευρώ, αλλά χρησιμοποιήθηκε παλιά δική μας)
 
