@@ -27,6 +27,8 @@ For the project Smart Home with Raspberry Pi 2 and Python
 
 Remote control του Raspberry Pi
 
+Παρακολούθηση παρουσίας- κίνησης εξωτερικά της κεντρικής εισόδου του διαμερίσματος, μέσω usb webcam
+
 
 ΥΛΙΚΑ ΠΟΥ ΧΡΗΣΙΜΟΠΟΙΗΣΑΜΕ
 
