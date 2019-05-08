@@ -32,8 +32,13 @@ GPIO.setup(green,GPIO.OUT)
 GPIO.setup(Left_Door, GPIO.IN,pull_up_down = GPIO.PUD_UP)
 GPIO.setup(Right_Door,GPIO.IN,pull_up_down=GPIO.PUD_UP)
 GPIO.setup(button,GPIO.IN,pull_up_down=GPIO.PUD_UP)
-     
 
+#module που ανάβει όλα τα Leds στην αρχή του προγράμματος   
+def open_lights():
+     GPIO.output(red1,1)
+     GPIO.output(red2,1)
+     GPIO.output(green,1)
+     
 # module για το σβήσιμο των Leds στην αρχή και στο τέλος του προγράμματος
 def close_all_lights():
     GPIO.output(red1,0)
@@ -51,8 +56,7 @@ def open_heater1():
  # Module που δίνει την εντολή να ανάψει η δεύτερη θερμάστρα
 def open_heater2():
     GPIO.output(red2,1)
-    #time.sleep(.5)
-
+    
 # Module ήχου κουδουνιού πόρτας 
 def soundplay1():
     sound="/home/pi/Music/Doorbell.wav" 
@@ -99,6 +103,8 @@ def check_hum_temp():
             print("No data. Please try again!")
     
 try:
+    open_lights()
+    time.sleep(2)
     call(['espeak "Welcome to the world of Robots" 2>/dev/null'], shell=True)# δημιουργία φωνητικού μηνύματος
     close_all_lights()
     while True:
